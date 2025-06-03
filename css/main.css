@@ -1,0 +1,126 @@
+.hidden {
+    display: none;
+}
+
+body {
+    background-color: rgb(190, 135, 112);
+    font-family: helvetica;
+}
+
+Header h2 {
+    font-size: 80px;
+   text-align: center; 
+   color: rgb(168, 185, 140);
+}
+
+#icons div {
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+    width: 200px;
+    flex-direction: column;
+    background-color: #d4a78f;
+    padding: 10px;
+    border-radius: 26px;
+    font-size: 13px;
+} 
+
+#icons  {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    padding: px;
+    gap: 20px;
+} 
+
+#icons2 div {
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+    background-color: #d4a78f;
+    width: 200px;
+    flex-direction: column;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 26px;
+    font-size: 13px;
+} 
+
+#icons2  {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    gap: 20px;
+} 
+
+#grape object {
+    height: 204px;
+}
+
+#grape svg {
+    height: 208px;
+}
+
+#grapefruit object {
+    height: 204px;
+}
+
+div h3  {
+    font: helvetica;
+    margin-top: 7px;
+}
+
+object {
+    margin-bottom: 9px;
+}
+
+#lemon:hover #lemon-slices path {
+    fill: rgb(172, 175, 0)
+}
+
+#lime:hover #lime-slices path {
+    fill: rgb(42, 154, 34)
+}
+
+#grape:hover #g-Layer_1 .g2 {
+    fill: rgb(202, 239, 79) 
+}
+
+#orange:hover #orange-slices path {
+    animation: spin 4s linear infinite;
+    transform-origin: center;
+    fill: rgb(243, 163, 59)
+
+
+}
+
+@keyframes spin {
+    to { transform: rotate(360deg);  }
+}
+
+#grapefruit svg {
+    transition: transform 0.5s ease;
+    transform-origin: center;
+}
+
+#grapefruit:hover svg {
+    transform: scaleX(1.15); 
+}
+
+#coco svg {
+    transition: transform 0.5s ease;
+    transform-origin: center;
+}
+
+#coco:hover svg {
+    transform: scaleY(1.15); 
+    
+}
+
+header img {
+    width: 82px;
+}
+
+
+
+
